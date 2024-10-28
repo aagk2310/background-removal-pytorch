@@ -4,6 +4,8 @@ Overview
 
 This project demonstrates an automated background removal system using the DeepLabV3+ architecture implemented in PyTorch. The model is designed for precise image segmentation, allowing users to remove backgrounds from images accurately and efficiently. The solution leverages a pretrained ResNet backbone and is fine-tuned to improve generalization and performance on background removal tasks.
 
+Dataset-https://drive.google.com/file/d/1TSU5nwiRO7A6GHLwGM_O21Njomp8OJYn/view?usp=sharing
+
 Features
 
 	•	DeepLabV3+ Architecture: Utilizes a state-of-the-art image segmentation model for accurate background removal.
