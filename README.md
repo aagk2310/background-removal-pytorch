@@ -16,6 +16,8 @@ Features
 
 Some Results on Test Dataset
 
+The figure consists of a) Input Image b) Ground Truth Mask c) Predicted Mask d) Masked Image
+
 ![girl-model-blonde-slav-157666_0](https://github.com/user-attachments/assets/2fe59c62-a4d4-4c31-9939-9dfcac1e3119)
 
 
