@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-# IoU (Intersection over Union) for PyTorch
+# IoU (Intersection over Union)
 def iou(y_true, y_pred):
     """
     Compute the Intersection over Union (IoU) metric.
@@ -12,7 +12,7 @@ def iou(y_true, y_pred):
     iou_score = (intersection + smooth) / (union + smooth)
     return iou_score.mean()
 
-# Dice Coefficient for PyTorch
+# Dice Coefficient 
 def dice_coef(y_true, y_pred):
     """
     Compute the Dice Coefficient metric.
