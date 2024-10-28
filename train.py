@@ -8,10 +8,10 @@ from torch.utils.data import DataLoader, Dataset
 import torch.optim as optim
 from sklearn.utils import shuffle
 import wandb
-from model import DeepLabV3Plus  # Assuming your converted PyTorch DeepLabV3Plus model is here
-from metrics import dice_loss, dice_coef, iou  # You need to define these for PyTorch
+from model import DeepLabV3Plus  
+from metrics import dice_loss, dice_coef, iou  
 
-# Login to WandB (it will prompt for your API key if you're not logged in)
+
 wandb.login()
 
 """ Global parameters """
